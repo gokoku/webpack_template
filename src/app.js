@@ -1,4 +1,4 @@
-import styles from './css/style.css'
+import './css/style.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
@@ -6,6 +6,6 @@ import Hello from './js/Hello'
 
 ReactDOM.render(
     <Hello/>,
-  document.getElementById("container")
+  document.getElementById('container')
 
 )

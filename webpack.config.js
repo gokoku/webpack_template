@@ -37,9 +37,17 @@ module.exports = {
       {
         test: /\.(jpeg|jpeg|png|svg)$/,
         use: 'file-loader?name=assets/[name].[ext]'
-      }
-      
-    ]
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "eslint-loader",
+        options: {
+          fix: true,
+          failOnError: true,
+        }
+      },
+    ],
   },
 
   plugins: [
