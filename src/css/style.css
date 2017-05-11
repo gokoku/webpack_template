@@ -1,7 +1,7 @@
 body {
-  background-color: #eeeeee;
-  font: 16px Arial;
-  color: white;
+    background-color: #eeeeee;
+    font: 16px Arial;
+    color: gray;
 
-  @import './components/Hello.css'
+    @import './components/Hello.css'
 }
