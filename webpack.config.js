@@ -14,9 +14,9 @@ module.exports = {
     port: 3000,
     host: '0.0.0.0'
   },
-  
+
   devtool: 'sorce-map',
-  
+
   module: {
     rules:[
       {
@@ -39,7 +39,7 @@ module.exports = {
         use: 'file-loader?name=assets/[name].[ext]'
       },
       {
-        test: /\.js$/,
+        test: /\.jsX?$/,
         exclude: /node_modules/,
         loader: "eslint-loader",
         options: {
