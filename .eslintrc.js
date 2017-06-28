@@ -54,7 +54,7 @@ module.exports = {
       "error",
       {
         "singleQuote": true,
-        "trailingComma": true,
+        "trailingComma": "all",
         "bracketSpacing": false,
         "jsxBracketSameLine": true,
         "parser": "flow",
