@@ -42,6 +42,7 @@ module.exports = {
         test: /\.jsX?$/,
         exclude: /node_modules/,
         loader: "eslint-loader",
+        enforce: "pre",
         options: {
           fix: true,
           failOnError: true,
