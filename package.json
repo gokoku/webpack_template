@@ -29,7 +29,8 @@
   "dependencies": {
     "lodash": "^4.17.14",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "serialize-javascript": ">=2.1.1"
   },
   "scripts": {
     "product": "webpack -p",
