@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/gokoku/webpack_template) 
+
 # Webpack 入門テンプレート
 
 Webpack2 で React ES2015 及び PostCSS を手軽にいじれるように用意しました。
