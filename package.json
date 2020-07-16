@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "kind-of": ">=6.0.3",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "minimist": ">=0.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
